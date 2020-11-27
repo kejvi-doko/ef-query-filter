@@ -22,9 +22,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/DynamicLambdaParser/Student.cs" />
+        <option value="$PROJECT_DIR$/DynamicLambdaParser/FilterGenerator.cs" />
         <option value="$PROJECT_DIR$/FilterParser/Class1.cs" />
         <option value="$PROJECT_DIR$/DynamicLambdaParser/FilterRow.cs" />
-        <option value="$PROJECT_DIR$/DynamicLambdaParser/FilterGenerator.cs" />
+        <option value="$PROJECT_DIR$/FilterParser/FilterRow.cs" />
+        <option value="$PROJECT_DIR$/FilterParser/FilterGenerator.cs" />
         <option value="$PROJECT_DIR$/DynamicLambdaParser/Program.cs" />
       </list>
     </option>
@@ -39,13 +41,14 @@
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30005425" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/source/repo" />
+    <property name="last_opened_file_path" value="$USER_HOME$/source/repo/Discovery_Master_License_Portal/DM.LicensePortal.sln" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -76,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606421289184</updated>
-      <workItem from="1606421294731" duration="13206000" />
+      <workItem from="1606421294731" duration="14092000" />
     </task>
     <servers />
   </component>
@@ -93,168 +96,172 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="478" height="505" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1606438937091" />
-    <state width="1874" height="247" key="GridCell.Tab.0.bottom" timestamp="1606439273131">
+    <state x="744" y="281" key="FileChooserDialogImpl" timestamp="1606439363219">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1874" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606439273131" />
-    <state width="1874" height="247" key="GridCell.Tab.0.center" timestamp="1606439273130">
+    <state x="744" y="281" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1606439363219" />
+    <state width="1874" height="247" key="GridCell.Tab.0.bottom" timestamp="1606439657976">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1874" height="247" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606439273130" />
-    <state width="1874" height="247" key="GridCell.Tab.0.left" timestamp="1606439273130">
+    <state width="1874" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657976" />
+    <state width="1874" height="247" key="GridCell.Tab.0.center" timestamp="1606439657975">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1874" height="247" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606439273130" />
-    <state width="1874" height="247" key="GridCell.Tab.0.right" timestamp="1606439273130">
+    <state width="1874" height="247" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657975" />
+    <state width="1874" height="247" key="GridCell.Tab.0.left" timestamp="1606439657974">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1874" height="247" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606439273130" />
-    <state width="1874" height="247" key="GridCell.Tab.1.bottom" timestamp="1606439273132">
+    <state width="1874" height="247" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657974" />
+    <state width="1874" height="247" key="GridCell.Tab.0.right" timestamp="1606439657975">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1874" height="247" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606439273132" />
-    <state width="1874" height="247" key="GridCell.Tab.1.center" timestamp="1606439273131">
+    <state width="1874" height="247" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657975" />
+    <state width="1874" height="247" key="GridCell.Tab.1.bottom" timestamp="1606439657980">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1874" height="247" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606439273131" />
-    <state width="1874" height="247" key="GridCell.Tab.1.left" timestamp="1606439273131">
+    <state width="1874" height="247" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657980" />
+    <state width="1874" height="247" key="GridCell.Tab.1.center" timestamp="1606439657978">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1874" height="247" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606439273131" />
-    <state width="1874" height="247" key="GridCell.Tab.1.right" timestamp="1606439273131">
+    <state width="1874" height="247" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657978" />
+    <state width="1874" height="247" key="GridCell.Tab.1.left" timestamp="1606439657977">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1874" height="247" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606439273131" />
-    <state width="1874" height="247" key="GridCell.Tab.2.bottom" timestamp="1606439273133">
+    <state width="1874" height="247" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657977" />
+    <state width="1874" height="247" key="GridCell.Tab.1.right" timestamp="1606439657979">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1874" height="247" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606439273133" />
-    <state width="1874" height="247" key="GridCell.Tab.2.center" timestamp="1606439273132">
+    <state width="1874" height="247" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657979" />
+    <state width="1874" height="247" key="GridCell.Tab.2.bottom" timestamp="1606439657982">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1874" height="247" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606439273132" />
-    <state width="1874" height="247" key="GridCell.Tab.2.left" timestamp="1606439273132">
+    <state width="1874" height="247" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657982" />
+    <state width="1874" height="247" key="GridCell.Tab.2.center" timestamp="1606439657981">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1874" height="247" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606439273132" />
-    <state width="1874" height="247" key="GridCell.Tab.2.right" timestamp="1606439273132">
+    <state width="1874" height="247" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657981" />
+    <state width="1874" height="247" key="GridCell.Tab.2.left" timestamp="1606439657980">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1874" height="247" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606439273132" />
-    <state width="1874" height="247" key="GridCell.Tab.3.bottom" timestamp="1606439273133">
+    <state width="1874" height="247" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657980" />
+    <state width="1874" height="247" key="GridCell.Tab.2.right" timestamp="1606439657981">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1874" height="247" key="GridCell.Tab.3.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606439273133" />
-    <state width="1874" height="247" key="GridCell.Tab.3.center" timestamp="1606439273133">
+    <state width="1874" height="247" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657981" />
+    <state width="1874" height="247" key="GridCell.Tab.3.bottom" timestamp="1606439657984">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1874" height="247" key="GridCell.Tab.3.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606439273133" />
-    <state width="1874" height="247" key="GridCell.Tab.3.left" timestamp="1606439273133">
+    <state width="1874" height="247" key="GridCell.Tab.3.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657984" />
+    <state width="1874" height="247" key="GridCell.Tab.3.center" timestamp="1606439657983">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1874" height="247" key="GridCell.Tab.3.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606439273133" />
-    <state width="1874" height="247" key="GridCell.Tab.3.right" timestamp="1606439273133">
+    <state width="1874" height="247" key="GridCell.Tab.3.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657983" />
+    <state width="1874" height="247" key="GridCell.Tab.3.left" timestamp="1606439657982">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1874" height="247" key="GridCell.Tab.3.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606439273133" />
-    <state width="1874" height="247" key="GridCell.Tab.4.bottom" timestamp="1606439273134">
+    <state width="1874" height="247" key="GridCell.Tab.3.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657982" />
+    <state width="1874" height="247" key="GridCell.Tab.3.right" timestamp="1606439657983">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1874" height="247" key="GridCell.Tab.4.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606439273134" />
-    <state width="1874" height="247" key="GridCell.Tab.4.center" timestamp="1606439273134">
+    <state width="1874" height="247" key="GridCell.Tab.3.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657983" />
+    <state width="1874" height="247" key="GridCell.Tab.4.bottom" timestamp="1606439657986">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1874" height="247" key="GridCell.Tab.4.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606439273134" />
-    <state width="1874" height="247" key="GridCell.Tab.4.left" timestamp="1606439273134">
+    <state width="1874" height="247" key="GridCell.Tab.4.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657986" />
+    <state width="1874" height="247" key="GridCell.Tab.4.center" timestamp="1606439657985">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1874" height="247" key="GridCell.Tab.4.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606439273134" />
-    <state width="1874" height="247" key="GridCell.Tab.4.right" timestamp="1606439273134">
+    <state width="1874" height="247" key="GridCell.Tab.4.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657985" />
+    <state width="1874" height="247" key="GridCell.Tab.4.left" timestamp="1606439657984">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1874" height="247" key="GridCell.Tab.4.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606439273134" />
-    <state x="556" y="258" key="Rider.ProjectTemplateDialog.Size" timestamp="1606436514939">
+    <state width="1874" height="247" key="GridCell.Tab.4.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657984" />
+    <state width="1874" height="247" key="GridCell.Tab.4.right" timestamp="1606439657985">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="556" y="258" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1050@0.0.1920.1050" timestamp="1606436514939" />
+    <state width="1874" height="247" key="GridCell.Tab.4.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657985" />
+    <state x="556" y="258" key="Rider.ProjectTemplateDialog.Size" timestamp="1606440094822">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="556" y="258" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1050@0.0.1920.1050" timestamp="1606440094822" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DynamicLambdaParser/Program.cs</url>
-          <line>57</line>
+          <line>52</line>
           <properties documentPath="$PROJECT_DIR$/DynamicLambdaParser/Program.cs" initialLine="41">
             <startOffsets>
-              <option value="1920" />
+              <option value="1725" />
             </startOffsets>
             <endOffsets>
-              <option value="1931" />
+              <option value="1736" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DynamicLambdaParser/Program.cs</url>
-          <line>45</line>
+          <line>40</line>
           <properties documentPath="$PROJECT_DIR$/DynamicLambdaParser/Program.cs" initialLine="45">
             <startOffsets>
-              <option value="1160" />
+              <option value="965" />
             </startOffsets>
             <endOffsets>
-              <option value="1243" />
+              <option value="1048" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DynamicLambdaParser/Program.cs</url>
-          <line>47</line>
+          <line>42</line>
           <properties documentPath="$PROJECT_DIR$/DynamicLambdaParser/Program.cs" initialLine="47">
             <startOffsets>
-              <option value="1386" />
+              <option value="1191" />
             </startOffsets>
             <endOffsets>
-              <option value="1454" />
+              <option value="1259" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DynamicLambdaParser/Program.cs</url>
-          <line>72</line>
+          <line>67</line>
           <properties documentPath="$PROJECT_DIR$/DynamicLambdaParser/Program.cs" initialLine="77">
             <startOffsets>
-              <option value="2397" />
+              <option value="2202" />
             </startOffsets>
             <endOffsets>
-              <option value="2430" />
+              <option value="2235" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DynamicLambdaParser/Program.cs</url>
-          <line>63</line>
+          <line>58</line>
           <properties documentPath="$PROJECT_DIR$/DynamicLambdaParser/Program.cs" initialLine="63">
             <startOffsets>
-              <option value="2069" />
+              <option value="1874" />
             </startOffsets>
             <endOffsets>
-              <option value="2206" />
+              <option value="2011" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DynamicLambdaParser/Program.cs</url>
-          <line>68</line>
+          <line>63</line>
           <properties documentPath="$PROJECT_DIR$/DynamicLambdaParser/Program.cs" initialLine="68">
             <startOffsets>
-              <option value="2220" />
+              <option value="2025" />
             </startOffsets>
             <endOffsets>
-              <option value="2286" />
+              <option value="2091" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="9" />

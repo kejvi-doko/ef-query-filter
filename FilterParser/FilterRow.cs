@@ -1,6 +1,6 @@
-using System;
+﻿using System;
 
-namespace DynamicLambdaParser
+namespace FilterParser
 {
     public class FilterRow
     {
