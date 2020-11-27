@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicLambdaParser", "DynamicLambdaParser\DynamicLambdaParser.csproj", "{47643A90-D907-45F9-BC8F-3A22C0DA0864}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterParser", "FilterParser\FilterParser.csproj", "{7BB24E17-11A4-44DD-B587-DF3E2A4DF235}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47643A90-D907-45F9-BC8F-3A22C0DA0864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47643A90-D907-45F9-BC8F-3A22C0DA0864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47643A90-D907-45F9-BC8F-3A22C0DA0864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47643A90-D907-45F9-BC8F-3A22C0DA0864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BB24E17-11A4-44DD-B587-DF3E2A4DF235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB24E17-11A4-44DD-B587-DF3E2A4DF235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB24E17-11A4-44DD-B587-DF3E2A4DF235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB24E17-11A4-44DD-B587-DF3E2A4DF235}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

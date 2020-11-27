@@ -1,0 +1,13 @@
+/home/kdoko/RiderProjects/DynamicLambdaParser/DynamicLambdaParser/bin/Debug/netcoreapp3.1/DynamicLambdaParser
+/home/kdoko/RiderProjects/DynamicLambdaParser/DynamicLambdaParser/bin/Debug/netcoreapp3.1/DynamicLambdaParser.deps.json
+/home/kdoko/RiderProjects/DynamicLambdaParser/DynamicLambdaParser/bin/Debug/netcoreapp3.1/DynamicLambdaParser.runtimeconfig.json
+/home/kdoko/RiderProjects/DynamicLambdaParser/DynamicLambdaParser/bin/Debug/netcoreapp3.1/DynamicLambdaParser.runtimeconfig.dev.json
+/home/kdoko/RiderProjects/DynamicLambdaParser/DynamicLambdaParser/bin/Debug/netcoreapp3.1/DynamicLambdaParser.dll
+/home/kdoko/RiderProjects/DynamicLambdaParser/DynamicLambdaParser/bin/Debug/netcoreapp3.1/DynamicLambdaParser.pdb
+/home/kdoko/RiderProjects/DynamicLambdaParser/DynamicLambdaParser/obj/Debug/netcoreapp3.1/DynamicLambdaParser.csprojAssemblyReference.cache
+/home/kdoko/RiderProjects/DynamicLambdaParser/DynamicLambdaParser/obj/Debug/netcoreapp3.1/DynamicLambdaParser.AssemblyInfoInputs.cache
+/home/kdoko/RiderProjects/DynamicLambdaParser/DynamicLambdaParser/obj/Debug/netcoreapp3.1/DynamicLambdaParser.AssemblyInfo.cs
+/home/kdoko/RiderProjects/DynamicLambdaParser/DynamicLambdaParser/obj/Debug/netcoreapp3.1/DynamicLambdaParser.csproj.CoreCompileInputs.cache
+/home/kdoko/RiderProjects/DynamicLambdaParser/DynamicLambdaParser/obj/Debug/netcoreapp3.1/DynamicLambdaParser.dll
+/home/kdoko/RiderProjects/DynamicLambdaParser/DynamicLambdaParser/obj/Debug/netcoreapp3.1/DynamicLambdaParser.pdb
+/home/kdoko/RiderProjects/DynamicLambdaParser/DynamicLambdaParser/obj/Debug/netcoreapp3.1/DynamicLambdaParser.genruntimeconfig.cache
