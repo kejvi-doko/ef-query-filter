@@ -1,28 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/kdoko/RiderProjects/DynamicLambdaParser/FilterParser/FilterParser.csproj": {}
+    "C:\\Users\\kejvi\\Source\\Repos\\kejvi-doko\\ef-query-filter\\FilterParser\\FilterParser.csproj": {}
   },
   "projects": {
-    "/home/kdoko/RiderProjects/DynamicLambdaParser/FilterParser/FilterParser.csproj": {
+    "C:\\Users\\kejvi\\Source\\Repos\\kejvi-doko\\ef-query-filter\\FilterParser\\FilterParser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kdoko/RiderProjects/DynamicLambdaParser/FilterParser/FilterParser.csproj",
+        "projectUniqueName": "C:\\Users\\kejvi\\Source\\Repos\\kejvi-doko\\ef-query-filter\\FilterParser\\FilterParser.csproj",
         "projectName": "FilterParser",
-        "projectPath": "/home/kdoko/RiderProjects/DynamicLambdaParser/FilterParser/FilterParser.csproj",
-        "packagesPath": "/home/kdoko/.nuget/packages/",
-        "outputPath": "/home/kdoko/RiderProjects/DynamicLambdaParser/FilterParser/obj/",
+        "projectPath": "C:\\Users\\kejvi\\Source\\Repos\\kejvi-doko\\ef-query-filter\\FilterParser\\FilterParser.csproj",
+        "packagesPath": "C:\\Users\\kejvi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kejvi\\Source\\Repos\\kejvi-doko\\ef-query-filter\\FilterParser\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/kdoko/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\kejvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

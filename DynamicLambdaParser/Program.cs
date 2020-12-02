@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
+using FilterParser;
 
 namespace DynamicLambdaParser
 {
@@ -71,7 +72,33 @@ namespace DynamicLambdaParser
             var filteredStudents = students.Where(generatedExpression).ToList();
             
             // var sts = students.Where(lambda3).ToList();
-            
+
+            ILogicalNode rootNode = new OrLogicalNode()
+            {
+                LeftNode = new FilterNode()
+                {
+                    Operator = "GT",
+                    FieldValue = 25,
+                    FieldName = "Age"
+                },
+                RightNode = new AndLogicalNode()
+                {
+                    LeftNode = new FilterNode()
+                    {
+                        Operator = "EQ",
+                        FieldName = "Name",
+                        FieldValue = "Tomas"
+                    },
+                    RightNode = new FilterNode()
+                    {
+                        Operator = "EQ",
+                        FieldName = "Surname",
+                        FieldValue = "Smith"
+                    }
+                }
+            };
+
+
             Console.WriteLine("Hello World!");
         }
     }

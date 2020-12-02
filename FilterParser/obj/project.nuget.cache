@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ON19bO+93D0/L9lrDhry1e0YUrRJs2CMorLLyNkQpsG8sc4uR/j5DEH159MTHBr5w2aP6KStUuOrWEKBMcbgQA==",
+  "dgSpecHash": "W9UmsIekjLysZn4aMYYDjyK7OgF18hubeapXLD7UrT9SRnexoi+NeixvuQBL+2ZOGpfi8nhuSvWRrRv3ziNIRA==",
   "success": true,
-  "projectFilePath": "/home/kdoko/RiderProjects/DynamicLambdaParser/FilterParser/FilterParser.csproj",
+  "projectFilePath": "C:\\Users\\kejvi\\Source\\Repos\\kejvi-doko\\ef-query-filter\\FilterParser\\FilterParser.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
