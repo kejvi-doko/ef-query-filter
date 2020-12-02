@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace FilterParser
 {
-    public interface ILogicalNode<in T> where T:class
+    public interface ILogicalNode<T> where T:class
     {
-        Func<T, bool> Eval();
+        Expression Eval();
     }
 }

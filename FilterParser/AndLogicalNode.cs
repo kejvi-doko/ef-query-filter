@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace FilterParser
@@ -8,9 +9,9 @@ namespace FilterParser
     {
         public ILogicalNode<T> LeftNode { get; set; }
         public ILogicalNode<T> RightNode { get; set; }
-        public Func<T, bool> Eval()
+        public Expression Eval()
         {
-            throw new NotImplementedException();
+            return Expression.And(LeftNode.Eval(), RightNode.Eval());
         }
     }
 }

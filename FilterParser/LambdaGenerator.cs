@@ -13,9 +13,6 @@ namespace FilterParser
             get => _rootNode;
             set => _rootNode = value ?? throw new NullReferenceException();
         }
-        public virtual Func<T, bool> GenerateLambda()
-        {
 
-        }
     }
 }

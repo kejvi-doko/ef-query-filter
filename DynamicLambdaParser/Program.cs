@@ -62,14 +62,14 @@ namespace DynamicLambdaParser
             // }).Compile();
 
 
-            FilterGenerator<Student> studentFilterGenerator = new FilterGenerator<Student>()
-            {
-                root = root
-            };
-
-            var generatedExpression = studentFilterGenerator.GenerateFilter();
-
-            var filteredStudents = students.Where(generatedExpression).ToList();
+            // FilterGenerator<Student> studentFilterGenerator = new FilterGenerator<Student>()
+            // {
+            //     root = root
+            // };
+            //
+            // var generatedExpression = studentFilterGenerator.GenerateFilter();
+            //
+            // var filteredStudents = students.Where(generatedExpression).ToList();
 
             // var sts = students.Where(lambda3).ToList();
 
@@ -80,12 +80,23 @@ namespace DynamicLambdaParser
 
 
             ILogicalNode<Student> rootNode = orNodeStrategy.CreateNode(
-                andNodeStrategy.CreateNode(
-                    filterNodeStrategy.CreateNode("Name", "Tomas", "EQ"),
-                    filterNodeStrategy.CreateNode("Surname", "James", "EQ")),
+                filterNodeStrategy.CreateNode("Name", "James", "EQ"),
                 filterNodeStrategy.CreateNode("Age", 25, "GT"));
 
-            var lambdaCall = rootNode.Eval();
+            var e = rootNode.Eval();
+
+            e = filterNodeStrategy.CreateNode("Name", "James", "EQ").Eval();
+
+            ParameterExpression baseParameter = Expression.Parameter(typeof(Student), nameof(Student));
+
+            var compliedExpression = Expression.Lambda<Func<Student, bool>>(e,
+                new[]
+                {
+                    baseParameter
+                }).Compile();
+
+            
+            var sts = students.Where(compliedExpression).ToList();
 
             Console.WriteLine("Hello World!");
         }
