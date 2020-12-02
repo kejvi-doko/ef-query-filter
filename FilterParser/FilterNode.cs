@@ -27,9 +27,10 @@ namespace FilterParser
             }
         }
         public dynamic FieldValue { get; set; }
-        public Expression Eval()
+        public Expression Eval(ParameterExpression baseParameter)
         {
-            ParameterExpression baseParameter = Expression.Parameter(typeof(T), typeof(T).Name);
+            // ParameterExpression baseParameter = Expression.Parameter(typeof(T), typeof(T).Name);
+
             var property = Expression.Property(baseParameter, typeof(T).GetProperty(FieldName));
             ConstantExpression c =
                 Expression.Constant(FieldValue, FieldValue.GetType());
@@ -44,7 +45,12 @@ namespace FilterParser
                 _ => throw new Exception("Operator is nt allowed")
             };
 
+            var q = Expression.Lambda<Func<T, bool>>(e, new[] {baseParameter})
+                .Compile();
+
             return e;
         }
+
+        public ParameterExpression BaseParameter { get; set; }
     }
 }

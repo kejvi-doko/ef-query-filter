@@ -9,9 +9,17 @@ namespace FilterParser
     {
         public ILogicalNode<T> LeftNode { get; set; }
         public ILogicalNode<T> RightNode { get; set; }
-        public Expression Eval()
+        public Expression Eval(ParameterExpression baseParameter)
         {
-            return Expression.And(LeftNode.Eval(), RightNode.Eval());
+            if (baseParameter == null)
+            {
+                baseParameter = Expression.Parameter(typeof(T), typeof(T).Name);
+                BaseParameter = baseParameter;
+            }
+
+            return Expression.And(LeftNode.Eval(baseParameter), RightNode.Eval(baseParameter));
         }
+
+        public ParameterExpression BaseParameter { get; set; }
     }
 }

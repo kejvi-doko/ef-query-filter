@@ -7,6 +7,8 @@ namespace FilterParser
 {
     public interface ILogicalNode<T> where T:class
     {
-        Expression Eval();
+        // TODO remove base parameter, return compiled expression
+        ParameterExpression BaseParameter { get; set; }
+        Expression Eval(ParameterExpression baseParameter=null);
     }
 }

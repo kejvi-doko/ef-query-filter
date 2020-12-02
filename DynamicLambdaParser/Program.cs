@@ -16,7 +16,7 @@ namespace DynamicLambdaParser
                 ColumnName = "Name",
                 Operator = "EQ",
                 CompareValue = "Tomas",
-                BooleanOperator = "AND",
+                BooleanOperator = "OR",
                 NextFilter = new FilterRow()
                 {
                     Operator = "GT",
@@ -62,14 +62,14 @@ namespace DynamicLambdaParser
             // }).Compile();
 
 
-            // FilterGenerator<Student> studentFilterGenerator = new FilterGenerator<Student>()
-            // {
-            //     root = root
-            // };
-            //
-            // var generatedExpression = studentFilterGenerator.GenerateFilter();
-            //
-            // var filteredStudents = students.Where(generatedExpression).ToList();
+            FilterGenerator<Student> studentFilterGenerator = new FilterGenerator<Student>()
+            {
+                root = root
+            };
+            
+            var generatedExpression = studentFilterGenerator.GenerateFilter();
+            
+            var filteredStudents = students.Where(generatedExpression).ToList();
 
             // var sts = students.Where(lambda3).ToList();
 
@@ -83,16 +83,14 @@ namespace DynamicLambdaParser
                 filterNodeStrategy.CreateNode("Name", "James", "EQ"),
                 filterNodeStrategy.CreateNode("Age", 25, "GT"));
 
-            var e = rootNode.Eval();
+            var e = rootNode.Eval(null);
 
-            e = filterNodeStrategy.CreateNode("Name", "James", "EQ").Eval();
-
-            ParameterExpression baseParameter = Expression.Parameter(typeof(Student), nameof(Student));
+            // e = filterNodeStrategy.CreateNode("Name", "James", "EQ").Eval();
 
             var compliedExpression = Expression.Lambda<Func<Student, bool>>(e,
                 new[]
                 {
-                    baseParameter
+                    rootNode.BaseParameter
                 }).Compile();
 
             
