@@ -4,9 +4,14 @@ using System.Text;
 
 namespace FilterParser
 {
-    public sealed class OrLogicalNode:ILogicalNode
+    public sealed class OrLogicalNode<T> : ILogicalNode<T> where T : class
+
     {
-        public ILogicalNode LeftNode { get; set; }
-        public ILogicalNode RightNode { get; set; }
+        public ILogicalNode<T> LeftNode { get; set; }
+        public ILogicalNode<T> RightNode { get; set; }
+        public Func<T, bool> Eval()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

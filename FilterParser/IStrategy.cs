@@ -4,8 +4,8 @@ using System.Text;
 
 namespace FilterParser
 {
-    public interface ILogicalNode<in T> where T:class
+    public interface IStrategy<in T> where T :class
     {
-        Func<T, bool> Eval();
+        ILogicalNode<T> CreateNode(params object[] data);
     }
 }

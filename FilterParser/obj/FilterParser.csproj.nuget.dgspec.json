@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kejvi\\Source\\Repos\\kejvi-doko\\ef-query-filter\\FilterParser\\FilterParser.csproj": {}
+    "C:\\Users\\CRS\\source\\repos\\kejvi-doko\\ef-query-filter\\FilterParser\\FilterParser.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kejvi\\Source\\Repos\\kejvi-doko\\ef-query-filter\\FilterParser\\FilterParser.csproj": {
+    "C:\\Users\\CRS\\source\\repos\\kejvi-doko\\ef-query-filter\\FilterParser\\FilterParser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kejvi\\Source\\Repos\\kejvi-doko\\ef-query-filter\\FilterParser\\FilterParser.csproj",
+        "projectUniqueName": "C:\\Users\\CRS\\source\\repos\\kejvi-doko\\ef-query-filter\\FilterParser\\FilterParser.csproj",
         "projectName": "FilterParser",
-        "projectPath": "C:\\Users\\kejvi\\Source\\Repos\\kejvi-doko\\ef-query-filter\\FilterParser\\FilterParser.csproj",
-        "packagesPath": "C:\\Users\\kejvi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kejvi\\Source\\Repos\\kejvi-doko\\ef-query-filter\\FilterParser\\obj\\",
+        "projectPath": "C:\\Users\\CRS\\source\\repos\\kejvi-doko\\ef-query-filter\\FilterParser\\FilterParser.csproj",
+        "packagesPath": "C:\\Users\\CRS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CRS\\source\\repos\\kejvi-doko\\ef-query-filter\\FilterParser\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\kejvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CRS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -27,7 +27,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Ritech/d2547d7b-e7c0-4ed7-bbab-dcb8a911f81f/_packaging/DiscoveryMaster.Proteus.Poco/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -57,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

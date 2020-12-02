@@ -43,7 +43,7 @@ namespace DynamicLambdaParser
                     Name = "Tomas"
                 },
             };
-            
+
             // ParameterExpression parameter = Expression.Parameter(typeof(Student),"Student");
             // var property = Expression.Property(parameter, Type.GetType("DynamicLambdaParser.Student").GetProperty("Name"));
             // ConstantExpression c = Expression.Constant("Tomas", typeof(string));
@@ -70,34 +70,22 @@ namespace DynamicLambdaParser
             var generatedExpression = studentFilterGenerator.GenerateFilter();
 
             var filteredStudents = students.Where(generatedExpression).ToList();
-            
+
             // var sts = students.Where(lambda3).ToList();
 
-            ILogicalNode rootNode = new OrLogicalNode()
-            {
-                LeftNode = new FilterNode()
-                {
-                    Operator = "GT",
-                    FieldValue = 25,
-                    FieldName = "Age"
-                },
-                RightNode = new AndLogicalNode()
-                {
-                    LeftNode = new FilterNode()
-                    {
-                        Operator = "EQ",
-                        FieldName = "Name",
-                        FieldValue = "Tomas"
-                    },
-                    RightNode = new FilterNode()
-                    {
-                        Operator = "EQ",
-                        FieldName = "Surname",
-                        FieldValue = "Smith"
-                    }
-                }
-            };
+            IStrategy<Student> andNodeStrategy = new AndNodeStrategy<Student>();
+            IStrategy<Student> orNodeStrategy = new OrNodeStrategy<Student>();
+            IStrategy<Student> filterNodeStrategy = new FilterNodeStrategy<Student>();
+            IStrategy<Student> singularNodeStrategy = new SingularNodeStrategy<Student>();
 
+
+            ILogicalNode<Student> rootNode = orNodeStrategy.CreateNode(
+                andNodeStrategy.CreateNode(
+                    filterNodeStrategy.CreateNode("Name", "Tomas", "EQ"),
+                    filterNodeStrategy.CreateNode("Surname", "James", "EQ")),
+                filterNodeStrategy.CreateNode("Age", 25, "GT"));
+
+            var lambdaCall = rootNode.Eval();
 
             Console.WriteLine("Hello World!");
         }

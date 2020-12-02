@@ -6,9 +6,9 @@ namespace FilterParser
 {
     public abstract class LambdaGenerator<T> where T:class
     {
-        private ILogicalNode _rootNode;
+        private ILogicalNode<T> _rootNode;
 
-        public ILogicalNode RootNode
+        public ILogicalNode<T> RootNode
         {
             get => _rootNode;
             set => _rootNode = value ?? throw new NullReferenceException();
