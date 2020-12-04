@@ -5,6 +5,9 @@
         <Authors>Kejvi Doko</Authors>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Description>Parse json request to lambda function to filter collection in dynamic way</Description>
+        <Version>1.0.1</Version>
+        <AssemblyVersion>1.0.1.1</AssemblyVersion>
+        <FileVersion>1.0.1.1</FileVersion>
     </PropertyGroup>
 
 </Project>

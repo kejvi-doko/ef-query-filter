@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\kejvi\\source\\repos\\kejvi-doko\\ef-query-filter\\FilterParser\\FilterParser.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "restore": {
         "projectUniqueName": "C:\\Users\\kejvi\\source\\repos\\kejvi-doko\\ef-query-filter\\FilterParser\\FilterParser.csproj",
         "projectName": "FilterParser",
