@@ -5,9 +5,12 @@
         <Authors>Kejvi Doko</Authors>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Description>Parse json request to lambda function to filter collection in dynamic way</Description>
-        <Version>1.0.1</Version>
-        <AssemblyVersion>1.0.1.1</AssemblyVersion>
-        <FileVersion>1.0.1.1</FileVersion>
+        <Version>1.0.2</Version>
+        <AssemblyVersion>1.0.1.2</AssemblyVersion>
+        <FileVersion>1.0.1.2</FileVersion>
+        <RepositoryUrl>https://github.com/kejvi-doko/ef-query-filter</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/kejvi-doko/ef-query-filter</PackageProjectUrl>
+        <NeutralLanguage>en</NeutralLanguage>
     </PropertyGroup>
 
 </Project>

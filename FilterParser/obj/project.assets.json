@@ -13,7 +13,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "restore": {
       "projectUniqueName": "C:\\Users\\kejvi\\source\\repos\\kejvi-doko\\ef-query-filter\\FilterParser\\FilterParser.csproj",
       "projectName": "FilterParser",
