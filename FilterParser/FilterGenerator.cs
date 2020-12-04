@@ -5,26 +5,24 @@ namespace FilterParser
 {
     public class FilterGenerator<T> where T : class
     {
-        public FilterRow root { get; set; }
+        private FilterRow _root { get; set; }
+
+        public FilterGenerator(FilterRow root)
+        {
+            _root = root;
+        }
 
         public Func<T, bool> GenerateFilter()
         {
-            FilterRow currentFilter = root;
-            ParameterExpression baseParameter = Expression.Parameter(typeof(T), typeof(T).Name);
-            
-            var property = Expression.Property(baseParameter, typeof(T).GetProperty(currentFilter.ColumnName));
-            ConstantExpression c =
-                Expression.Constant(currentFilter.CompareValue, currentFilter.CompareValue.GetType());
+            Context<T> ctx = new Context<T>();
 
-            BinaryExpression e = currentFilter.Operator switch
-            {
-                "EQ" => Expression.Equal(property, c),
-                "GT" => Expression.GreaterThan(property, c),
-                "LT" => Expression.LessThan(property, c),
-                "GTE" => Expression.GreaterThanOrEqual(property, c),
-                "LTE" => Expression.LessThanOrEqual(property, c),
-                _ => throw new Exception("Operator is nt allowed")
-            };
+            FilterRow currentFilter = _root;
+            ParameterExpression baseParameter = Expression.Parameter(typeof(T), typeof(T).Name);
+
+            ctx.SetStrategy(new FilterNodeStrategy<T>());
+
+            ILogicalNode<T> e = ctx.CreateLogicalNode(currentFilter.ColumnName, currentFilter.CompareValue,
+                currentFilter.Operator);
             
             FilterRow previousFilter = currentFilter;
             currentFilter = currentFilter.NextFilter;
@@ -32,33 +30,29 @@ namespace FilterParser
             while (currentFilter != null)
             {
 
-                var property2 = Expression.Property(baseParameter, typeof(T).GetProperty(currentFilter.ColumnName));
-                
-                ConstantExpression c2 =
-                    Expression.Constant(currentFilter.CompareValue, currentFilter.CompareValue.GetType());
+                ILogicalNode<T> e2 = ctx.CreateLogicalNode(currentFilter.ColumnName, currentFilter.CompareValue,
+                    currentFilter.Operator);
 
-                BinaryExpression e2 = currentFilter.Operator switch
+
+                switch (previousFilter.BooleanOperator)
                 {
-                    "EQ" => Expression.Equal(property2, c2),
-                    "GT" => Expression.GreaterThan(property2, c2),
-                    "LT" => Expression.LessThan(property2, c2),
-                    "GTE" => Expression.GreaterThanOrEqual(property2, c2),
-                    "LTE" => Expression.LessThanOrEqual(property2, c2),
-                    _ => throw new Exception("Operator is nt allowed")
-                };
-                
-                e = previousFilter.BooleanOperator switch
-                {
-                    "OR" => Expression.Or(e, e2),
-                    "AND" => Expression.And(e, e2),
-                    _ => throw new Exception("Boolean operator is not allowed")
-                };
+                    case "OR":
+                        ctx.SetStrategy(new OrNodeStrategy<T>());
+                        break;
+                    case "AND":
+                        ctx.SetStrategy(new AndNodeStrategy<T>());
+                        break;
+                    default:
+                        throw new Exception("Boolean operator is not allowed");
+                }
+
+                e = ctx.CreateLogicalNode(e, e2);
 
                 previousFilter = currentFilter;
                 currentFilter = currentFilter.NextFilter;
             }
-            
-            var compliedExpression = Expression.Lambda<Func<T, bool>>(e, new[]
+
+            var compliedExpression = Expression.Lambda<Func<T, bool>>(e.Eval(baseParameter), new[]
             {
                 baseParameter
             }).Compile();

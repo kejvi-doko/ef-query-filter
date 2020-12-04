@@ -15,13 +15,13 @@ namespace FilterParser
             get => _booleanOperator;
             set
             {
-                var tempOperator = value.ToUpper();
+                var tempOperator = value?.ToUpper();
 
                 _booleanOperator = tempOperator switch
                 {
                     "OR" => tempOperator,
                     "AND" => tempOperator,
-                    _ => throw new Exception("Boolean operator is not allowed")
+                    _ => null
                 };
             } 
         }
@@ -30,7 +30,7 @@ namespace FilterParser
             get => _operator;
             set
             {
-                var tempOperator = value.ToUpper();
+                var tempOperator = value?.ToUpper();
                 _operator = tempOperator switch
                 {
                     "GT" => tempOperator,
@@ -38,7 +38,7 @@ namespace FilterParser
                     "GTE" => tempOperator,
                     "LTE" => tempOperator,
                     "EQ" => tempOperator,
-                    _ => throw new Exception("Operator is nt allowed")
+                    _ => null
                 };
             } 
         }

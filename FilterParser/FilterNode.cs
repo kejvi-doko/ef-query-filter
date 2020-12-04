@@ -9,6 +9,8 @@ namespace FilterParser
     {
         public string FieldName { get; set; }
         private string _operator;
+        private dynamic _fieldValue;
+
         public string Operator
         {
             get => _operator;
@@ -26,11 +28,54 @@ namespace FilterParser
                 };
             }
         }
-        public dynamic FieldValue { get; set; }
+        public dynamic FieldValue
+        {
+            get => _fieldValue;
+            set
+            {
+                
+                if (value is System.Text.Json.JsonElement && value.ValueKind== System.Text.Json.JsonValueKind.String)
+                {
+                    if (value.TryGetDateTime(out DateTime e)) {_fieldValue = e;
+                        return;
+                    }
+
+                    if (value.TryGetGuid(out Guid g)) {_fieldValue = g;
+                        return;
+                    }
+
+                    _fieldValue = value.GetString();
+                }
+                else if (value is System.Text.Json.JsonElement &&
+                         (
+                         value.ValueKind == System.Text.Json.JsonValueKind.True || 
+                         value.ValueKind == System.Text.Json.JsonValueKind.False))
+                {
+                    _fieldValue = value.GetBoolean();
+                }
+                else if (value is System.Text.Json.JsonElement && value.ValueKind == System.Text.Json.JsonValueKind.Number)
+                {
+                    if (value.TryGetInt32(out int a)) {_fieldValue = a;
+                        return;
+                    }
+
+                    if (value.TryGetDouble(out double d)){ _fieldValue = d;
+                        return;
+                    }
+
+                    if (value.TryGetDecimal(out decimal dc))
+                        _fieldValue = dc;
+
+                }
+                else
+                {
+                    _fieldValue = value;
+                }
+            }
+            
+        }
         public Expression Eval(ParameterExpression baseParameter)
         {
-            // ParameterExpression baseParameter = Expression.Parameter(typeof(T), typeof(T).Name);
-
             var property = Expression.Property(baseParameter, typeof(T).GetProperty(FieldName));
             ConstantExpression c =
                 Expression.Constant(FieldValue, FieldValue.GetType());

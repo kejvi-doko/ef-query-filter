@@ -2,6 +2,9 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Authors>Kejvi Doko</Authors>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Description>Parse json request to lambda function to filter collection in dynamic way</Description>
     </PropertyGroup>
 
 </Project>
