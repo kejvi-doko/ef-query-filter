@@ -77,9 +77,19 @@ namespace FilterParser
         public Expression Eval(ParameterExpression baseParameter)
         {
             var property = Expression.Property(baseParameter, typeof(T).GetProperty(FieldName));
-            ConstantExpression c =
-                Expression.Constant(FieldValue, FieldValue.GetType());
 
+            ConstantExpression c;
+            
+            if (IsNullableType(property.Type))
+            {
+                c = Expression.Constant(FieldValue, typeof(T).GetProperty(FieldName).PropertyType);
+            }
+            else
+            {
+                c = Expression.Constant(FieldValue, FieldValue.GetType());
+            }
+            
+            
             var e = Operator switch
             {
                 "EQ" => Expression.Equal(property, c),
@@ -87,15 +97,20 @@ namespace FilterParser
                 "LT" => Expression.LessThan(property, c),
                 "GTE" => Expression.GreaterThanOrEqual(property, c),
                 "LTE" => Expression.LessThanOrEqual(property, c),
-                _ => throw new Exception("Operator is nt allowed")
+                _ => throw new Exception("Operator is not allowed")
             };
 
-            var q = Expression.Lambda<Func<T, bool>>(e, new[] {baseParameter})
-                .Compile();
+            // var q = Expression.Lambda<Func<T, bool>>(e, new[] {baseParameter})
+            //     .Compile();
 
             return e;
         }
 
+        private bool IsNullableType(Type t)
+        {
+            return t.IsGenericType && t.GetGenericTypeDefinition() == typeof(Nullable<>);
+        }
+        
         public ParameterExpression BaseParameter { get; set; }
     }
 }

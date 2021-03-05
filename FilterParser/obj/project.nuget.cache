@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pxqi2HBPssd5ap5/QgFQza0ZlyvVgFfeeinCd8cjp3VsfKZre9Y/DTx/iNT8KmlyytMIVguIzbHnPfgi0nNFVQ==",
+  "dgSpecHash": "S41JHiH1IOywub1GDMpzRFbvNTFek4+CEuThxPgkbeZfDgjsjl6c4Ikm2D84xxLNAFkMFW3qN0iuGn6dJbvCxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kejvi\\source\\repos\\kejvi-doko\\ef-query-filter\\FilterParser\\FilterParser.csproj",
+  "projectFilePath": "/Users/crs/dev/ef-query-filter/FilterParser/FilterParser.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

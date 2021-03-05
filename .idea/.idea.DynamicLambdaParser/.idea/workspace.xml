@@ -4,42 +4,62 @@
     <projectFile>DynamicLambdaParser/DynamicLambdaParser.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a606325b-6364-4164-86a1-0fae6b07dc5d" name="Default Changelist" comment="" />
+    <list default="true" id="a606325b-6364-4164-86a1-0fae6b07dc5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DynamicLambdaParser/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DynamicLambdaParser/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DynamicLambdaParser/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DynamicLambdaParser/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DynamicLambdaParser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DynamicLambdaParser/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilterParser.UnitTest/FilterRowUnitTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FilterParser.UnitTest/FilterRowUnitTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilterParser/AndLogicalNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FilterParser/AndLogicalNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilterParser/FilterNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FilterParser/FilterNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilterParser/obj/Debug/netcoreapp3.1/FilterParser.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FilterParser/obj/Debug/netcoreapp3.1/FilterParser.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilterParser/obj/Debug/netcoreapp3.1/FilterParser.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FilterParser/obj/Debug/netcoreapp3.1/FilterParser.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilterParser/obj/Debug/netcoreapp3.1/FilterParser.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FilterParser/obj/Debug/netcoreapp3.1/FilterParser.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilterParser/obj/FilterParser.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/FilterParser/obj/FilterParser.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilterParser/obj/FilterParser.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/FilterParser/obj/FilterParser.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilterParser/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/FilterParser/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilterParser/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FilterParser/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilterParser/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/FilterParser/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilterParser/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/FilterParser/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D67CFCDB-BB76-4ACF-8B6A-F250A5089BB1/46/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D67CFCDB-BB76-4ACF-8B6A-F250A5089BB1/30/Where.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/28949B57-B0E6-42F8-90AE-D8EC00D01B3E/24/LambdaExpression.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/28949B57-B0E6-42F8-90AE-D8EC00D01B3E/2F/ParameterExpression.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/28949B57-B0E6-42F8-90AE-D8EC00D01B3E/16/BinaryExpression.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18D5A60D-361A-4AFD-A431-F772FA87FCC3/a5/3d55042d/ExecutionTimer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3962ECB5-2BDB-4153-9EDC-7F28039AAD5E/1A/ConstantExpression.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18D5A60D-361A-4AFD-A431-F772FA87FCC3/8c/de34daee/TestInvoker`1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/DynamicLambdaParser/Student.cs" />
-        <option value="$PROJECT_DIR$/DynamicLambdaParser/FilterGenerator.cs" />
-        <option value="$PROJECT_DIR$/FilterParser/Class1.cs" />
-        <option value="$PROJECT_DIR$/DynamicLambdaParser/FilterRow.cs" />
-        <option value="$PROJECT_DIR$/FilterParser/FilterRow.cs" />
-        <option value="$PROJECT_DIR$/FilterParser/FilterGenerator.cs" />
-        <option value="$PROJECT_DIR$/DynamicLambdaParser/Program.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/FilterParser/AndLogicalNode.cs" />
+      <option value="$PROJECT_DIR$/FilterParser/FilterNode.cs" />
+      <option value="$PROJECT_DIR$/FilterParser.UnitTest/FilterRowUnitTest.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1kqHdMKv8uIgAkeUn7lA6YK2iSX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34997287" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30005425" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34971997" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/source/repo/Discovery_Master_License_Portal/DM.LicensePortal.sln" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -51,7 +71,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.DynamicLambdaParser">
     <configuration name="DynamicLambdaParser" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -80,110 +100,17 @@
       <option name="presentableId" value="Default" />
       <updated>1606421289184</updated>
       <workItem from="1606421294731" duration="14092000" />
+      <workItem from="1614896396629" duration="9717000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="478" height="505" key="DebuggerActiveHint" timestamp="1606438937091">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="478" height="505" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1606438937091" />
-    <state x="744" y="281" key="FileChooserDialogImpl" timestamp="1606439363219">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="744" y="281" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1606439363219" />
-    <state width="1874" height="247" key="GridCell.Tab.0.bottom" timestamp="1606439657976">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657976" />
-    <state width="1874" height="247" key="GridCell.Tab.0.center" timestamp="1606439657975">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="247" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657975" />
-    <state width="1874" height="247" key="GridCell.Tab.0.left" timestamp="1606439657974">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="247" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657974" />
-    <state width="1874" height="247" key="GridCell.Tab.0.right" timestamp="1606439657975">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="247" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657975" />
-    <state width="1874" height="247" key="GridCell.Tab.1.bottom" timestamp="1606439657980">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="247" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657980" />
-    <state width="1874" height="247" key="GridCell.Tab.1.center" timestamp="1606439657978">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="247" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657978" />
-    <state width="1874" height="247" key="GridCell.Tab.1.left" timestamp="1606439657977">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="247" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657977" />
-    <state width="1874" height="247" key="GridCell.Tab.1.right" timestamp="1606439657979">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="247" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657979" />
-    <state width="1874" height="247" key="GridCell.Tab.2.bottom" timestamp="1606439657982">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="247" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657982" />
-    <state width="1874" height="247" key="GridCell.Tab.2.center" timestamp="1606439657981">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="247" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657981" />
-    <state width="1874" height="247" key="GridCell.Tab.2.left" timestamp="1606439657980">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="247" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657980" />
-    <state width="1874" height="247" key="GridCell.Tab.2.right" timestamp="1606439657981">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="247" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657981" />
-    <state width="1874" height="247" key="GridCell.Tab.3.bottom" timestamp="1606439657984">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="247" key="GridCell.Tab.3.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657984" />
-    <state width="1874" height="247" key="GridCell.Tab.3.center" timestamp="1606439657983">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="247" key="GridCell.Tab.3.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657983" />
-    <state width="1874" height="247" key="GridCell.Tab.3.left" timestamp="1606439657982">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="247" key="GridCell.Tab.3.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657982" />
-    <state width="1874" height="247" key="GridCell.Tab.3.right" timestamp="1606439657983">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="247" key="GridCell.Tab.3.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657983" />
-    <state width="1874" height="247" key="GridCell.Tab.4.bottom" timestamp="1606439657986">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="247" key="GridCell.Tab.4.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657986" />
-    <state width="1874" height="247" key="GridCell.Tab.4.center" timestamp="1606439657985">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="247" key="GridCell.Tab.4.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657985" />
-    <state width="1874" height="247" key="GridCell.Tab.4.left" timestamp="1606439657984">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="247" key="GridCell.Tab.4.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657984" />
-    <state width="1874" height="247" key="GridCell.Tab.4.right" timestamp="1606439657985">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1874" height="247" key="GridCell.Tab.4.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606439657985" />
-    <state x="556" y="258" key="Rider.ProjectTemplateDialog.Size" timestamp="1606440094822">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="556" y="258" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1050@0.0.1920.1050" timestamp="1606440094822" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -191,93 +118,70 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DynamicLambdaParser/Program.cs</url>
           <line>52</line>
-          <properties documentPath="$PROJECT_DIR$/DynamicLambdaParser/Program.cs" initialLine="41">
-            <startOffsets>
-              <option value="1725" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1736" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/DynamicLambdaParser/Program.cs" initialLine="41" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DynamicLambdaParser/Program.cs</url>
           <line>40</line>
-          <properties documentPath="$PROJECT_DIR$/DynamicLambdaParser/Program.cs" initialLine="45">
-            <startOffsets>
-              <option value="965" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1048" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/DynamicLambdaParser/Program.cs" initialLine="45" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DynamicLambdaParser/Program.cs</url>
           <line>42</line>
-          <properties documentPath="$PROJECT_DIR$/DynamicLambdaParser/Program.cs" initialLine="47">
-            <startOffsets>
-              <option value="1191" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1259" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/DynamicLambdaParser/Program.cs" initialLine="47" />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DynamicLambdaParser/Program.cs</url>
           <line>67</line>
-          <properties documentPath="$PROJECT_DIR$/DynamicLambdaParser/Program.cs" initialLine="77">
-            <startOffsets>
-              <option value="2202" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2235" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/DynamicLambdaParser/Program.cs" initialLine="77" />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DynamicLambdaParser/Program.cs</url>
           <line>58</line>
-          <properties documentPath="$PROJECT_DIR$/DynamicLambdaParser/Program.cs" initialLine="63">
-            <startOffsets>
-              <option value="1874" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2011" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/DynamicLambdaParser/Program.cs" initialLine="63" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DynamicLambdaParser/Program.cs</url>
           <line>63</line>
-          <properties documentPath="$PROJECT_DIR$/DynamicLambdaParser/Program.cs" initialLine="68">
-            <startOffsets>
-              <option value="2025" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2091" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/DynamicLambdaParser/Program.cs" initialLine="68" />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DynamicLambdaParser/FilterGenerator.cs</url>
           <line>31</line>
-          <properties documentPath="$PROJECT_DIR$/DynamicLambdaParser/FilterGenerator.cs" initialLine="31">
+          <properties documentPath="$PROJECT_DIR$/DynamicLambdaParser/FilterGenerator.cs" initialLine="31" />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/FilterParser/FilterNode.cs</url>
+          <line>82</line>
+          <properties documentPath="$PROJECT_DIR$/FilterParser/FilterNode.cs" initialLine="82" containingFunctionPresentation="method 'Eval'">
             <startOffsets>
-              <option value="1256" />
+              <option value="2694" />
             </startOffsets>
             <endOffsets>
-              <option value="1285" />
+              <option value="2728" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="12" />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/FilterParser.UnitTest/FilterRowUnitTest.cs</url>
+          <line>54</line>
+          <properties documentPath="$PROJECT_DIR$/FilterParser.UnitTest/FilterRowUnitTest.cs" initialLine="54" containingFunctionPresentation="method 'TestFilterGeneration'">
+            <startOffsets>
+              <option value="1520" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1547" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
